@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1000px;
+  background-color: bisque;
+}
+
+.wishing-text {
+  font-weight: bolder;
+  font-family: honk;
+  color: rgb(187, 24, 24);
+  text-align: center;
+  font-size: 100px;
+}
+
+@media (min-width: 0px) and (max-width: 600px){
+  .wishing-text{
+    font-size: 30px;
+  }
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+}
+
+.card-1 {
+  height: 400px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid black;
+  background-image: url(assets/1.jpeg);
+  background-size: cover;
+  transition: all 1s ease-in;
+  animation-name: cardAnimate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.25s;
+  animation-iteration-count: one;
+  animation-direction: normal;
+}
+
+
+
+.card-1:hover {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.card-2 {
+  height: 400px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid black;
+  background-image: url(assets/2.jpeg);
+  background-size: cover;
+  transition: all 1s ease-in;
+  animation-name: cardAnimate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.25s;
+  animation-iteration-count: one;
+  animation-direction: normal;
+}
+
+
+.card-2:hover {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.card-3 {
+  height: 400px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid black;
+  background-image: url(assets/3.jpeg);
+  background-size: cover;
+  transition: all 1s ease-in;
+  animation-name: cardAnimate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.25s;
+  animation-iteration-count: one;
+  animation-direction: normal;
+}
+
+
+.card-3:hover {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.card-4 {
+  height: 400px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid black;
+  background-image: url(assets/4.jpeg);
+  background-size: cover;
+  transition: all 1s ease-in;
+  animation-name: cardAnimate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.25s;
+  animation-iteration-count: one;
+  animation-direction: normal;
+}
+
+.card-4:hover {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.card-5 {
+  height: 400px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid black;
+  background-image: url(assets/5.jpeg);
+  background-size: cover;
+  transition: all 1s ease-in;
+  animation-name: cardAnimate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.25s;
+  animation-iteration-count: one;
+  animation-direction: normal;
+}
+
+.card-5:hover {
+  width: 250px;
+  cursor: pointer;
+}
+
+
+.text-1 {
+  font-family: inconsolata;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+  transition: all 1s ease-in;
+  object-fit: cover;
+}
+
+.text-2 {
+  font-family: inconsolata;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  transition: all 1s ease-in;
+  object-fit: cover;
+}
+
+.text-3 {
+  font-family: inconsolata;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+  transition: all 1s ease-in;
+  object-fit: cover;
+}
+
+.text-4 {
+  font-family: inconsolata;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  transition: all 1s ease-in;
+  object-fit: cover;
+}
+
+.text-5 {
+  font-family: inconsolata;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  transition: all 1s ease-in;
+  object-fit: cover;
+}
+
+@keyframes cardAnimate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+};
+
